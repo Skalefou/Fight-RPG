@@ -24,7 +24,7 @@ std::string dictionary[13] = {
     " "
 };
 
-// CHANGELOG: Mettre Ã  jour le changelog aprÃ¨s une modification.
+// CHANGELOG: Mettre à jour le changelog après une modification.
 
 void changeDictionaryWeapon(std::string w1, std::string w2) {
     transform(w1.begin(), w1.end(), w1.begin(), ::tolower);
